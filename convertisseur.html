@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  <head>
+
+    <title>Convertisseur EURO</title>
+     <meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <script src="convertisseur.js"> </script>
+  </head>
+  <body>
+    <header>
+      <h1>CONVERTISSEUR DOLLARS AMERICAINS - EUROS </h1>
+    </header>
+	<section>
+		<p> Le cours actuel est de 1 dollar = 0,87738 euro </p>
+	</section>
+	<form>
+        <p>Entrez la valeur en dollars <input id="dollar" type="number" step="0.01" min=0 
+		name="dollars" required></p>
+		
+        <p><input type="button" id = "bouton" value="Convertir" onclick="selection()"></p>
+     </form>
+		<h2>  LA VALEUR EN EUROS EST DE : <span id = "euros"> &nbsp 0  </span> <span> &nbspEuros</span> </h2>
+  </body>
+ </html>
+

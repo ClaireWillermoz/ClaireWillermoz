@@ -1,0 +1,71 @@
+body
+{
+	background-color:#DDDDDD;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+code {
+        padding: 2px 2px;
+        color: #267988;
+        background-color: #f9f2f4;
+}
+h1
+{
+	text-align: center;
+	background-color: red;
+	padding: 20px;
+	border:15px;
+}
+p
+{
+	color: black;
+	
+	font-family: Verdana;
+}
+input[type="number"] {
+	background-color:#FFFFAA;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	font-weight : bold ;
+}
+input[type="button"] {
+	background-color:#EEEEEE;
+	font-family: 'Noto Sans TC', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	font-weight : bold ;
+
+}
+#imgv
+{
+	width: 100%;
+	border: 2px solid black;
+}
+#titre
+{
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	font-family : Verdana;
+}
+.table
+{
+	text-align: left;
+	color: pink;
+	width: 80%;
+}
+tr, td
+{
+	padding: 5px;	
+  	border: 1px solid #EE4460;
+	border-collapse:;
+}
+#image
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
