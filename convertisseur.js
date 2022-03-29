@@ -1,5 +1,5 @@
 function selection() {
-  const taux = 0.87738
+  const taux = 0.90
   const saisie = document.getElementById('dollar').value;
   
   change = saisie * taux
